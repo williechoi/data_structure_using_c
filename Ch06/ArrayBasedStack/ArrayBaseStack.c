@@ -24,7 +24,7 @@ Data SPop(Stack* pstack)
 {
 
     if(SIsEmpty(pstack)){
-        printf("Cannot pop an item from an empty index!");
+        printf("Cannot pop an item from an empty stack!");
         exit(-1);
     }
     
@@ -37,7 +37,7 @@ Data SPop(Stack* pstack)
 Data Speek(Stack* pstack)
 {
     if(SIsEmpty(pstack)){
-        printf("Cannot pop an item from an empty index!");
+        printf("Cannot pop an item from an empty stack!");
         exit(-1);
     }
     
