@@ -5,6 +5,16 @@ void ShowIntData(int data);
 
 int main(void)
 {
+    /**
+     *  -- TREE SHAPE --
+     *         1
+     *       /   \     
+     *      2     3
+     *     / \   / \
+     *    4   5     6
+     *  
+     */ 
+
     BTreeNode *bt1 = MakeBTreeNode();
     BTreeNode *bt2 = MakeBTreeNode();
     BTreeNode *bt3 = MakeBTreeNode();
