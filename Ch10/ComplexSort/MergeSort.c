@@ -8,6 +8,7 @@ void MergeTwoArea(int arr[], int left, int mid, int right)
     int i;
 
     // 병합할 결과를 담을 배열 sortArr 동적 할당
+    // 임시 배열
     int* sortArr = (int*)malloc(sizeof(int)*(right+1));
     int sIdx = left;
 
