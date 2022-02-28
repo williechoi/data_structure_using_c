@@ -39,6 +39,7 @@ void RadixSort(int arr[], int num, int maxLen)
 			}
 		}
 
+		// N번째 자리 숫자 추출을 위한 피제수의 증가
 		divfac *= 10;
 	}
 }
