@@ -23,11 +23,9 @@ int main(void)
     int idx;
 
     idx = BSearchRecur(arr1, 0, sizeof(arr1)/sizeof(int), 1);
-    if(idx == -1){
+    if(idx == -1) {
         printf("Search Failed!\n");
-    } 
-    else 
-    {
+    } else {
         printf("Target is saved at %d\n", idx);
     }
 
