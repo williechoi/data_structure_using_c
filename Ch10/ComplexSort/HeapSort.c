@@ -3,7 +3,7 @@
 
 int PriComp(int n1, int n2)
 {
-    return n2 - n1;     // 오름차순 정렬
+    return n2 - n1;         // 오름차순 정렬
     // return n1 - n2;     // 내림차순 정렬
 }
 
